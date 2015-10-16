@@ -33,3 +33,7 @@ $ gcloud compute ssh {인스턴스명} --zone {지역명}
 ```
 
 ![using_ssh_on_mac_00](using_ssh_on_mac_00.png)
+
+## References
+
+- [해리슨의 이것저것](https://calmlake79.wordpress.com/tag/ssh/)
