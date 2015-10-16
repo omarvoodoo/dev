@@ -1,4 +1,4 @@
-# Google Cloud SSH 활용하기
+# Mac에서 Google Cloud SSH 활용하기
 
 ## Google Cloud SDK 설치
 
