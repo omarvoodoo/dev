@@ -5,7 +5,7 @@
 
 ### Examples
 
-- [RecyclerView-CardView](Android/RecyclerView-CardView)
+- [RecyclerView-CardView](Android/Examples/RecyclerView-CardView)
 
 ## [Etc](Etc/)
 
