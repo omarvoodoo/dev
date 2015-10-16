@@ -38,5 +38,5 @@ http://{사설 DDNS 서버 IP}:80/nic/update?hostname=test.yungyikim.com&myip=19
  - nslookup yungyikim.com
  - dig yungyikim.com
 
-[!ddns_server_00](ddns_server_00.png)
+![ddns_server_00](ddns_server_00.png)
   
