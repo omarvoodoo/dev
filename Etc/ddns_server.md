@@ -17,7 +17,7 @@
 >호스트명에 서브 도메인을 `ns`로 사용하는건 암묵적 규약이다.
 
 ![enter image description here](https://lh3.googleusercontent.com/-FW_cMOILY8k/VVAv8PuhSJI/AAAAAAAAB5o/jzk4YwNvniw/s0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2015-05-11+13.03.23.png "스크린샷 2015-05-11 13.03.23.png")
- 
+
 3. 네임서버 등록
 
 위에서 등록한 `호스트 명(ns.yungyikim.com)`을 네임서버로 등록한다.
