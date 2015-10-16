@@ -1,5 +1,5 @@
 ## Examples
 
-- [RecyclerView-CardView](RecyclerView-CardView/README.md)
+- [RecyclerView-CardView](Examples/RecyclerView-CardView/)
 
 ## Docs
