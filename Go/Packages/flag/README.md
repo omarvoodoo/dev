@@ -22,8 +22,8 @@ func main() {
 결과
 
 ```shell
-$ go run test.go --param=100
+$ go run flag.go --param=100
 param = 100
-$ go run test.go
+$ go run flag.go
 param = 1
 ```
