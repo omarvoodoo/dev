@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	"runtime"
 )
 
 const helloWorldString = "Hello, World!"
@@ -11,6 +12,8 @@ var (
 )
 
 func main() {
+	runtime.GOMAXPROCS(runtime.NumCPU())
+
 	http.HandleFunc("/text", textHandler)
 	http.ListenAndServe(":8080", nil)
 }
