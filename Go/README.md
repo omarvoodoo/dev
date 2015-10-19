@@ -26,3 +26,4 @@ HTTP 요청을 핸들링하고 처리하는 서버를 구현한다.
 
 ### [runtime](Packages/runtime)
 
+runtime 패키지는 goroutines을 제어하는 기능등의 런타임 시스템과 상호 작용하는 작업을 포함한다. 
