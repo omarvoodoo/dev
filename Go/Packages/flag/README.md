@@ -11,9 +11,9 @@ import (
 )
 
 func main() {
-  // 기본 값
-  // paramB := flag.Bool("param_b", false, "desc param_b")
+  // param이라는 flag를 선언(기본값 1). param 포인터 변수에 *int형으로 저장된다.
   param := flag.Int("param", 1, "description")
+  // paramB := flag.Bool("param_b", false, "desc param_b")
   flag.Parse()
   fmt.Printf("param = %d\n", *param)
 }
@@ -22,8 +22,17 @@ func main() {
 결과
 
 ```shell
-$ go run test.go --param=100
+$ go run flag.go --param=100
 param = 100
-$ go run test.go
+$ go run flag.go
 param = 1
+```
+
+아래와 같이 Var() 함수들을 사용하여 변수를 flag에 결합할 수 있다.
+
+```go
+var flagvar int
+func init() {
+	flag.IntVar(&flagvar, "flagname", 1234, "help message for flagname")
+}
 ```
