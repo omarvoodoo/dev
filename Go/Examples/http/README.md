@@ -1,7 +1,5 @@
-## 내용
+## HTTP
 
-HTTP 요청을 핸들링하고 처리하는 서버를 구현한다. 핸들링하는 데이터 형식은 아래와 같다.
+HTTP 패키지는 HTTP 서버와 클라이언트 구현을 지원한다. Get, Head, Post, and PostForm 방식으로 만들어진 HTTP(or HTTPS) 요청에 대한 처리를 제공한다.
 
-- 문자열
-- JSON
-- SQL
+
