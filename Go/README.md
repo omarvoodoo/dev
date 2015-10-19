@@ -18,8 +18,11 @@
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
 
-## Examples
+## 패키지 소개
 
-### [http](Examples/http)
+### [http](Packages/http)
 
 HTTP 요청을 핸들링하고 처리하는 서버를 구현한다.
+
+### [runtime](Packages/runtime)
+
