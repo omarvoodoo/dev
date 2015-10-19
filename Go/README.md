@@ -21,9 +21,10 @@
 ## 패키지 소개
 
 ### [http](Packages/http)
-
 HTTP 요청을 핸들링하고 처리하는 서버를 구현한다.
 
 ### [runtime](Packages/runtime)
-
 runtime 패키지는 goroutines을 제어하는 기능등의 런타임 시스템과 상호 작용하는 작업을 포함한다. 
+
+### [flag](Packages/flag)
+터미널에서 명령어를 실행할 때 전달된 명령줄 인자를 파싱한다.
