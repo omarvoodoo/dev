@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-  // flag를 선언. 기본값 1
+  // param이라는 flag를 선언(기본값 1). param 포인터 변수에 *int형으로 저장된다.
   param := flag.Int("param", 1, "description")
   // paramB := flag.Bool("param_b", false, "desc param_b")
   flag.Parse()
