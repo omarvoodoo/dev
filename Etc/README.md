@@ -1,7 +1,3 @@
-## Syntax
-
-- [Polymorphism in Go(Go에서의 다형성)](syntax/polymorphism_in_go.md)
-
 ## Dynamic DNS
 
 - [DDNS 서버 구축 및 활용](ddns_server.md)
