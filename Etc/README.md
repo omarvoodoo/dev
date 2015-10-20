@@ -13,4 +13,4 @@ readme
 
 ## Install System
 
-### [NSIS](install_system/NSIS.md)
+### [NSIS](Install_System/NSIS.md)
