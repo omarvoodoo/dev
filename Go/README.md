@@ -22,6 +22,8 @@
 
 ### [Function closures(클로저)](Docs/function_closures.md)
 
+### [Error Handling & Clean-up](http://blog.remotty.com/blog/2015/08/15/golangeuro-anjeonhan-seobiseu-mandeulgi/)
+
 ## Tutorial Links
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
