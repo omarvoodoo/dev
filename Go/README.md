@@ -26,6 +26,8 @@
 
 ### [defer / panic / recover](Docs/defer_panic_recover.md)
 
+### [Polymorphism in Go(Go에서의 다형성)](Docs/polymorphism_in_go.md)
+
 ## Tutorial Links
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
