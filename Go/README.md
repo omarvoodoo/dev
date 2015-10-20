@@ -16,6 +16,10 @@
 - [Go 프로그래밍 언어의 가치](http://younghoonhong.blogspot.kr/2013/09/go.html)
 - [Google이 만드는 꿈의 언어 Go, 10년 뒤 세상을 지배 할 수 있을까?](http://apps.iamday.net/apps/talk/662/view.iamday?con=iphone)
 
+## Docs
+
+### [Exported/Unexported Identifiers In Go](#)
+
 ## Tutorial Links
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
