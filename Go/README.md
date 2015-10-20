@@ -36,3 +36,6 @@ runtime 패키지는 goroutines을 제어하는 기능등의 런타임 시스템
 
 ### [flag](Packages/flag)
 터미널에서 명령어를 실행할 때 전달된 명령줄 인자를 파싱한다.
+
+### [GoRP(Go Relational Persistence)](Packages/gorp)
+gorp 패키지는 간단하게 SQL databases를 Go 구조체로 마샬링 해준다.
