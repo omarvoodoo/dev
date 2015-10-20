@@ -18,7 +18,7 @@
 
 ## Docs
 
-### [Exported/Unexported Identifiers In Go](Exported_Unexported_Identifiers_In_Go.md)
+### [Exported/Unexported Identifiers In Go](Docs/Exported_Unexported_Identifiers_In_Go.md)
 
 ## Tutorial Links
 
