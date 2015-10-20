@@ -24,6 +24,8 @@
 
 ### [Error Handling & Clean-up](http://blog.remotty.com/blog/2015/08/15/golangeuro-anjeonhan-seobiseu-mandeulgi/)
 
+### [defer / panic / recover](Docs/defer_panic_recover.md)
+
 ## Tutorial Links
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
