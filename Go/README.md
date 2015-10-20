@@ -20,6 +20,8 @@
 
 ### [Exported/Unexported Identifiers In Go](Docs/Exported_Unexported_Identifiers_In_Go.md)
 
+### [Function closures(클로저)](Docs/function_closures.md)
+
 ## Tutorial Links
 
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
