@@ -10,10 +10,10 @@ import (
 )
 
 const (
-	dbname = "sl_db"
-	dbuser = "yungyikim"
-	dbpassword = "qwe123"
-	dbip = "10.240.0.3"
+	dbname = "userdb"
+	dbuser = "username"
+	dbpassword = "userpass"
+	dbip = "localhost"
 	dbport = "3306"
 )
 
