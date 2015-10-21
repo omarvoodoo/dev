@@ -17,14 +17,6 @@ const (
 	dbport = "3306"
 )
 
-type Invoice struct {
-    Id       int64
-    Created  int64
-    Updated  int64
-    Memo     string
-    PersonId int64
-}
-
 type Person struct {
     Id      int64
     Created int64
