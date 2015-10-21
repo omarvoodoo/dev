@@ -30,6 +30,8 @@ type Person struct {
 }
 ```
 
+> 구조체에 정의된 필드명의 첫 문자는 대문자로 해야한다. 소문자로 정의하게 되면 unexport되어 패키지 내부에서 접근 할 수 없다는 에러 메세지를 만나게 될 것이다.
+
 ```go
 // Go의 표준 SQL API를 이용하여 DB에 연결
 db, err := sql.Open("mysql", "myuser:mypassword@localhost:3306/dbname")
