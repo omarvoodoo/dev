@@ -1,4 +1,24 @@
 
+## Data Types
+
+### Strings
+
+### Lists
+
+### Sets
+
+set은 string의 집합이다. 여러개의 값을 하나의 Value 내에 넣을 수 있다고 생각하면 되며 블로그 포스트의 태깅(Tag)등에 사용될 수 있다. 재미있는 점은 set간의 연산을 지원하는데, 집합인 만큼 교집합, 합집합, 차이(Differences)를 매우 빠른 시간내에 추출할 수 있다.
+
+### Hashes
+
+### Sorted sets
+
+set 에 "score" 라는 필드가 추가된 데이타 형으로 score는 일종의 "가중치" 정도로 생각하면 된다. sorted set에서 데이타는 오름 차순으로 내부 정렬되며, 정렬이 되어 있는 만큼 score 값 범위에 따른 쿼리(range query), top rank에 따른 query 등이 가능하다.
+
+### References
+
+- [In memory dictionary Redis 소개](http://bcho.tistory.com/654)
+
 ## Benchmark
 
 ```bash
