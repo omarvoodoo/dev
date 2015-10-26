@@ -18,6 +18,7 @@ set 에 "score" 라는 필드가 추가된 데이타 형으로 score는 일종�
 ### References
 
 - [In memory dictionary Redis 소개](http://bcho.tistory.com/654)
+- [Joinc](http://www.joinc.co.kr/modules/moniwiki/wiki.php/man/12/REDIS/IntroDataType)
 
 ## Benchmark
 
