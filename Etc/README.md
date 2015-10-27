@@ -11,7 +11,7 @@
 
 ## Install System
 
-### [NSIS](Install_System/NSIS.md)
+### [NSIS](Install_System/nsis)
 
 ## [Nginx](nginx)
 
