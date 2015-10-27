@@ -13,6 +13,18 @@
 
 - [DDNS 서버 구축 및 활용](Etc/ddns_server.md)
 
+### Database
+
+#### [MySQL](Etc/database/mysql)
+
+### Install System
+
+#### [NSIS](Etc/install_system/nsis)
+
+### Nginx
+
+#### [ErrorReport](Etc/nginx/ErrorReport)
+
 ## [Go](Go/)
 
 ## [Google Cloud](GoogleCloud/)
