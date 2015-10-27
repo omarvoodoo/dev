@@ -12,3 +12,9 @@
 ## Install System
 
 ### [NSIS](Install_System/NSIS.md)
+
+## [Nginx](nginx)
+
+### [Error Report](nginx/ErrorReport)
+
+- [nginx lua: os.execute waitpid() failed (10: No child processes)](nginx/ErrorReport/nginx_lua_os_execute_waitpid_failed.md)
