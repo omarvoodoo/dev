@@ -53,6 +53,8 @@ CSS code
 }
 ```
 
+![resultimage](https://cloud.githubusercontent.com/assets/2065457/10785453/9f24f5c6-7da7-11e5-8fe5-a829cec7959c.png)
+
 ## References
 
 - [Quora](https://www.quora.com/How-do-you-display-a-scroll-bar-onto-an-HTML-table)
