@@ -25,14 +25,16 @@
 
 #### [ErrorReport](Etc/nginx/ErrorReport)
 
+### [RaspberryPi](Etc/RaspberryPi)
+
 ## [Go](Go/)
 
 ## [Google Cloud](GoogleCloud/)
+
+## [Python](Python/)
 
 ## [Redis](Redis/)
 
 ### SSH로 접속하기
 
 - [Mac](GoogleCloud/using_ssh_on_mac.md)
-
-## [Python](Python/)
