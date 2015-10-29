@@ -23,5 +23,5 @@
 - [aliexpress.com](http://ko.aliexpress.com/item/WRTnode-Open-Source-and-Mini-OpenWRT-Dev-Board/2028379374.html?isOrig=true#extend)
  > ?에서 생산하는 제품을 판매하고 대량 구매시 가격 할인 가능.   
  > 2015.10.29 기준 1개당 $28.99이고 10개 이상 구매시 $28.41에 구매가 가능하다.   
- > 기본 배송은 무료지만 빠른 배송을 원한다면 비용을 지불해야 한다.   
+ > 기본 배송은 무료(20개까지)지만 빠른 배송을 원한다면 비용을 지불해야 한다.   
  > $38.38 : 3-6 days
