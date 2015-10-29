@@ -12,6 +12,7 @@
  
 - [ICbanQ](http://www.icbanq.com/P005672671)
  > 구매 대행 업체로 DFRobot에서 생산하는 제품을 판매하고 대량 구매시 가격 할인 가능.
+ > 2015.10.29 기준 1개당 29,800원(부가세 별도)에 판매중.
  
 - [aliexpress.com](http://ko.aliexpress.com/item/Seeedstudio-WRTnode-Open-Source-and-Mini-OpenWRT-Dev-Board/32480603642.html?isOrig=true#extend)
  > Seeedstudio에서 생산하는 제품을 판매하고 대량 구매시 가격 할인 가능.    
