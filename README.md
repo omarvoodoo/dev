@@ -11,6 +11,8 @@
 
 #### [MySQL](Etc/database/mysql)
 
+#### [Redis](Redis/)
+
 ## [Etc](Etc/)
 
 #### Dynamic DNS
@@ -34,8 +36,6 @@
 ## [Google Cloud](GoogleCloud/)
 
 ## [Python](Python/)
-
-## [Redis](Redis/)
 
 #### SSH로 접속하기
 
