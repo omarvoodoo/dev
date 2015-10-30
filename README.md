@@ -3,31 +3,31 @@
 
 ## [Android](Android/)
 
-### Examples
+#### Examples
 
 - [RecyclerView-CardView](Android/Examples/RecyclerView-CardView)
 
-## [Etc](Etc/)
-
-### Dynamic DNS
-
-- [DDNS 서버 구축 및 활용](Etc/ddns_server.md)
-
-### Database
+## Database
 
 #### [MySQL](Etc/database/mysql)
 
-### Install System
+## [Etc](Etc/)
 
-#### [NSIS](Etc/install_system/nsis)
+#### Dynamic DNS
 
-### Nginx
+- [DDNS 서버 구축 및 활용](Etc/ddns_server.md)
 
-#### [ErrorReport](Etc/nginx/ErrorReport)
+#### Install System
 
-### [RaspberryPi](Etc/RaspberryPi)
+- [NSIS](Etc/install_system/nsis)
 
-### [WRTnode](Etc/WRTnode)
+#### Nginx
+
+- [ErrorReport](Etc/nginx/ErrorReport)
+
+#### [RaspberryPi](Etc/RaspberryPi)
+
+#### [WRTnode](Etc/WRTnode)
 
 ## [Go](Go/)
 
@@ -37,7 +37,7 @@
 
 ## [Redis](Redis/)
 
-### SSH로 접속하기
+#### SSH로 접속하기
 
 - [Mac](GoogleCloud/using_ssh_on_mac.md)
 
