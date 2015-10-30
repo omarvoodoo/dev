@@ -9,9 +9,9 @@
 
 ## Database
 
-#### [MySQL](Etc/database/mysql)
+#### [MySQL](Database/Mysql)
 
-#### [Redis](Redis/)
+#### [Redis](Database/Redis/)
 
 ## [Etc](Etc/)
 
