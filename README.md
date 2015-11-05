@@ -1,7 +1,7 @@
 # dev
 개발 관련 정리
 
-## [Android](Android/)
+## Android
 
 #### Examples
 
@@ -18,7 +18,7 @@
 
 #### [Redis](Database/Redis/)
 
-## [Etc](Etc/)
+## Etc
 
 #### Dynamic DNS
 
@@ -38,13 +38,13 @@
 
 ## [Go](Go/)
 
-## [Google Cloud](GoogleCloud/)
+## Google Cloud
 
 #### SSH로 접속하기
 
 - [Mac](GoogleCloud/using_ssh_on_mac.md)
 
-## [Python](Python/)
+## Python
 
 #### [Examples](Python/Examples/)
 
