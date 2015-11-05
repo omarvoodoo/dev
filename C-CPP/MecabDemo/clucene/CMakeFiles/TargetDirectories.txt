@@ -1,0 +1,7 @@
+C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeFiles/ALL_BUILD.dir
+C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/ZERO_CHECK.dir
+C:/YungYiKim/Git/MecabDemo/clucene/src/demo/CMakeFiles/cl_demo.dir
+C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeFiles/cl_test.dir
+C:/YungYiKim/Git/MecabDemo/clucene/src/core/CMakeFiles/clucene-core.dir
+C:/YungYiKim/Git/MecabDemo/clucene/src/shared/CMakeFiles/clucene-shared.dir
+C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/uninstall.dir

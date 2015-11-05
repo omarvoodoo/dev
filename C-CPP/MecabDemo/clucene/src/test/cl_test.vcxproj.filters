@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tests.cpp">
+      <Filter>unit_testing</Filter>
+    </ClCompile>
+    <ClCompile Include="CuTest.cpp">
+      <Filter>unit_testing</Filter>
+    </ClCompile>
+    <ClCompile Include="testall.cpp">
+      <Filter>unit_testing</Filter>
+    </ClCompile>
+    <ClCompile Include="queryParser\TestQueryParser.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="queryParser\TestMultiFieldQueryParser.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\TestAnalysis.cpp">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\TestAnalyzers.cpp">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\TestError.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="document\TestDateTools.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="document\TestDocument.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="document\TestNumberTools.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="document\TestField.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="store\TestStore.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="store\MockRAMDirectory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="store\TestRAMDirectory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestBoolean.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestDateFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestForDuplicates.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestQueries.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestRangeFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestSearch.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestSort.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestWildcard.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestTermVector.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestExtractTerms.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestConstantScoreRangeQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestIndexSearcher.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="index\IndexWriter4Test.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="search\BaseTestRangeFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\QueryUtils.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\CheckHits.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\TestExplanations.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpans.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpanQueries.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestBasics.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpansAdvanced.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpansAdvanced2.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestNearSpansOrdered.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpanExplanations.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="search\spans\TestSpanExplanationsOfNonMatches.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestIndexModifier.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestIndexWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestIndexReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestThreading.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestUtf8.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestHighFreqTerms.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestReuters.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestAddIndexesNoOptimize.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="index\TestTermVectorsReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="util\TestPriorityQueue.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\TestBitSet.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\TestStringBuffer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\English.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="search\MockScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\MockHitCollector.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\BaseTestRangeFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\QueryUtils.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\CheckHits.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\TestExplanations.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestSpans.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestBasics.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestSpansAdvanced.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestSpansAdvanced2.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestNearSpansOrdered.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestSpanExplanations.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="search\spans\TestSpanExplanationsOfNonMatches.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="unit_testing">
+      <UniqueIdentifier>{B6021247-7061-4245-82EA-EE45350AB731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis">
+      <UniqueIdentifier>{6CF0E2D8-5075-41FE-B9AD-DFDD18BFAB18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{61E6A763-53EE-4F72-8AF0-490D88A4DA97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="document">
+      <UniqueIdentifier>{9CED0706-A8F5-446D-BBD9-C5F716B87530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="index">
+      <UniqueIdentifier>{EB8D8E3D-3355-4132-BDA1-65FBF705F1C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queryParser">
+      <UniqueIdentifier>{7479E6AA-ADE5-4BCB-BCE8-F70D454AE4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search">
+      <UniqueIdentifier>{F69D1E30-7D99-45D5-99B4-E76ECBA87C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search-spans">
+      <UniqueIdentifier>{78E29D99-3885-4047-BA25-3D595B8632F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="store">
+      <UniqueIdentifier>{32196955-8EFE-4264-BCC5-60041890F7A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{06182B57-28FC-4F88-98C8-23C4BEFFC9B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

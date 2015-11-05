@@ -1,0 +1,13 @@
+Determining if files sys/time.h;time.h exist failed with the following output:
+
+Source:
+/* */
+#include <sys/time.h>
+#include <time.h>
+
+
+int main(){return 0;}
+
+Determining if the include file stdlib.h exists failed with the following output:
+
+

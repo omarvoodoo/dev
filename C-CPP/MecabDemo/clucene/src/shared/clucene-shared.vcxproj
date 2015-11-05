@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D28743BE-9829-48EF-97EC-B8EC2E050D8C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>clucene-shared</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clucene-shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clucene-sharedd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clucene-shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clucene-shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Librarys\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_REENTRANT;_UCS2;_UNICODE;MAKE_CLUCENE_SHARED_LIB;_DEBUG;CMAKE_INTDIR="Debug";clucene_shared_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_REENTRANT;_UCS2;_UNICODE;MAKE_CLUCENE_SHARED_LIB;_DEBUG;CMAKE_INTDIR=\"Debug\";clucene_shared_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Librarys\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Librarys\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(SolutionDir)src/ext/zlib/zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/YungYiKim/Git/MecabDemo/clucene/bin/Debug/clucene-sharedd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/YungYiKim/Git/MecabDemo/clucene/bin/Debug/clucene-sharedd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)src\shared;$(SolutionDir)src\core;$(SolutionDir)src\ext;$(SolutionDir)src/ext/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_REENTRANT;_UCS2;_UNICODE;MAKE_CLUCENE_SHARED_LIB;CMAKE_INTDIR="Release";clucene_shared_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_REENTRANT;_UCS2;_UNICODE;MAKE_CLUCENE_SHARED_LIB;CMAKE_INTDIR=\"Release\";clucene_shared_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Librarys\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Librarys\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(SolutionDir)src/ext/zlib/zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>$(SolutionDir)bin/clucene-shared.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)bin/clucene-shared.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/YungYiKim/Git/MecabDemo/clucene/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/YungYiKim/Git/MecabDemo/clucene -BC:/YungYiKim/Git/MecabDemo/clucene --check-stamp-file C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/YungYiKim/Git/MecabDemo/clucene/src/shared/CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\cmake\DefineOptions.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroMustDefine.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseType.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseMisc.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseFunction.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseSymbol.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroCheckGccVisibility.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineFloat.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineDword.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineLongLongSyntax.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineStaticSyntax.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineMAXPATHValue.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckFloatByte.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckErrorHandling.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckHashmaps.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckNamespace.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckSnprintf.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckStdCallFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckPthread.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckAtomicFunctions.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\TestForANSIForScope.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CLucene\clucene-config.h.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CLucene\_clucene-config.h.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/YungYiKim/Git/MecabDemo/clucene/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/YungYiKim/Git/MecabDemo/clucene -BC:/YungYiKim/Git/MecabDemo/clucene --check-stamp-file C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/YungYiKim/Git/MecabDemo/clucene/src/shared/CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\cmake\DefineOptions.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroMustDefine.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseType.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseMisc.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseFunction.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroChooseSymbol.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\MacroCheckGccVisibility.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineFloat.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineDword.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineLongLongSyntax.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineStaticSyntax.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\DefineMAXPATHValue.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckFloatByte.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckErrorHandling.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckHashmaps.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\Macro_ChooseStatus.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckNamespace.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckSnprintf.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckStdCallFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckPthread.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\cmake\CheckAtomicFunctions.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\TestForANSIForScope.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CLucene\clucene-config.h.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CLucene\_clucene-config.h.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\YungYiKim\Git\MecabDemo\clucene\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLucene\clucene-config.h" />
+    <ClInclude Include="CLucene\config\repl_tchar.h" />
+    <ClInclude Include="CLucene\config\repl_wchar.h" />
+    <ClInclude Include="CLucene\config\repl_wctype.h" />
+    <ClInclude Include="CLucene\config\_gunichartables.h" />
+    <ClInclude Include="CLucene\config\_threads.h" />
+    <ClInclude Include="CLucene\debug\_condition.h" />
+    <ClInclude Include="CLucene\LuceneThreads.h" />
+    <ClInclude Include="CLucene\SharedHeader.h" />
+    <ClInclude Include="CLucene\util\dirent.h" />
+    <ClInclude Include="CLucene\util\Misc.h" />
+    <ClInclude Include="CLucene\util\StringBuffer.h" />
+    <ClInclude Include="CLucene\_clucene-config.h" />
+    <ClInclude Include="CLucene\_SharedHeader.h" />
+    <ClCompile Include="CLucene\SharedHeader.cpp" />
+    <ClCompile Include="CLucene\config\gunichartables.cpp" />
+    <ClCompile Include="CLucene\config\repl_tcslwr.cpp" />
+    <ClCompile Include="CLucene\config\repl_tcstoll.cpp" />
+    <ClCompile Include="CLucene\config\repl_tcscasecmp.cpp" />
+    <ClCompile Include="CLucene\config\repl_tprintf.cpp" />
+    <ClCompile Include="CLucene\config\repl_lltot.cpp" />
+    <ClCompile Include="CLucene\config\repl_tcstod.cpp" />
+    <ClCompile Include="CLucene\config\utf8.cpp" />
+    <ClCompile Include="CLucene\config\threads.cpp" />
+    <ClCompile Include="CLucene\debug\condition.cpp" />
+    <ClCompile Include="CLucene\util\StringBuffer.cpp" />
+    <ClCompile Include="CLucene\util\Misc.cpp" />
+    <ClCompile Include="CLucene\util\dirent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ZERO_CHECK.vcxproj">
+      <Project>{a245d697-d230-4865-a2e7-e1e0d315bc7c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

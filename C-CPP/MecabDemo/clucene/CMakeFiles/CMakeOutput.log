@@ -1,0 +1,2068 @@
+The system is: Windows - 6.1 - AMD64
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: CompilerIdC, 구성: Debug x64 ------
+1>  CMakeCCompilerId.c
+1>  CompilerIdC.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+1>  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: CompilerIdCXX, 구성: Debug x64 ------
+1>  CMakeCXXCompilerId.cpp
+1>  CompilerIdCXX.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+1>  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1683387878
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1683387878, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1683387878.dir\Debug\\" /Fd"cmTryCompileExec1683387878.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>  cmTryCompileExec1683387878.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1683387878.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2900036108
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2900036108, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2900036108.dir\Debug\\" /Fd"cmTryCompileExec2900036108.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>  cmTryCompileExec2900036108.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2900036108.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3829261073
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3829261073, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3829261073.dir\Debug\\" /Fd"cmTryCompileExec3829261073.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>  cmTryCompileExec3829261073.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3829261073.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2882401047
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2882401047, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2882401047.dir\Debug\\" /Fd"cmTryCompileExec2882401047.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>  cmTryCompileExec2882401047.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2882401047.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec204200823
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec204200823, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec204200823.dir\Debug\\" /Fd"cmTryCompileExec204200823.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec204200823.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec204200823.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1836441600
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1836441600, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1836441600.dir\Debug\\" /Fd"cmTryCompileExec1836441600.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec1836441600.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1836441600.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2581570955
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2581570955, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2581570955.dir\Debug\\" /Fd"cmTryCompileExec2581570955.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2581570955.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2581570955.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2902681980
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2902681980, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2902681980.dir\Debug\\" /Fd"cmTryCompileExec2902681980.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2902681980.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2902681980.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3358632896
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3358632896, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3358632896.dir\Debug\\" /Fd"cmTryCompileExec3358632896.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3358632896.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3358632896.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file algorithm exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2119943114
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2119943114, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2119943114.dir\Debug\\" /Fd"cmTryCompileExec2119943114.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2119943114.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2119943114.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file functional exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3034117912
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3034117912, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3034117912.dir\Debug\\" /Fd"cmTryCompileExec3034117912.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3034117912.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3034117912.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file map exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec436468911
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec436468911, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec436468911.dir\Debug\\" /Fd"cmTryCompileExec436468911.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec436468911.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec436468911.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file vector exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1334368171
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1334368171, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1334368171.dir\Debug\\" /Fd"cmTryCompileExec1334368171.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec1334368171.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1334368171.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file list exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec274416295
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec274416295, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec274416295.dir\Debug\\" /Fd"cmTryCompileExec274416295.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec274416295.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec274416295.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file set exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2708143354
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2708143354, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2708143354.dir\Debug\\" /Fd"cmTryCompileExec2708143354.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2708143354.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2708143354.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2041302748
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2041302748, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2041302748.dir\Debug\\" /Fd"cmTryCompileExec2041302748.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2041302748.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2041302748.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec407938397
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec407938397, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec407938397.dir\Debug\\" /Fd"cmTryCompileExec407938397.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec407938397.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec407938397.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1596176005
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1596176005, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1596176005.dir\Debug\\" /Fd"cmTryCompileExec1596176005.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec1596176005.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1596176005.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2944080715
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2944080715, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2944080715.dir\Debug\\" /Fd"cmTryCompileExec2944080715.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2944080715.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2944080715.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4161525271
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4161525271, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4161525271.dir\Debug\\" /Fd"cmTryCompileExec4161525271.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec4161525271.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4161525271.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3700153440
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3700153440, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3700153440.dir\Debug\\" /Fd"cmTryCompileExec3700153440.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3700153440.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3700153440.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2312656061
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2312656061, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2312656061.dir\Debug\\" /Fd"cmTryCompileExec2312656061.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2312656061.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2312656061.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1956442965
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1956442965, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1956442965.dir\Debug\\" /Fd"cmTryCompileExec1956442965.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec1956442965.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1956442965.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file direct.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec550932335
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec550932335, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec550932335.dir\Debug\\" /Fd"cmTryCompileExec550932335.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec550932335.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec550932335.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file wctype.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec694870189
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec694870189, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec694870189.dir\Debug\\" /Fd"cmTryCompileExec694870189.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec694870189.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec694870189.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2810475717
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2810475717, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2810475717.dir\Debug\\" /Fd"cmTryCompileExec2810475717.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2810475717.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2810475717.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stdexcept exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec805135255
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec805135255, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec805135255.dir\Debug\\" /Fd"cmTryCompileExec805135255.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec805135255.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec805135255.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3296231611
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3296231611, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3296231611.dir\Debug\\" /Fd"cmTryCompileExec3296231611.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3296231611.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3296231611.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4196163672
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4196163672, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4196163672.dir\Debug\\" /Fd"cmTryCompileExec4196163672.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec4196163672.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4196163672.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec319546767
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec319546767, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec319546767.dir\Debug\\" /Fd"cmTryCompileExec319546767.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec319546767.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec319546767.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file hash_map exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3403980428
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3403980428, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3403980428.dir\Debug\\" /Fd"cmTryCompileExec3403980428.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3403980428.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3403980428.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file hash_set exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3953223012
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3953223012, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3953223012.dir\Debug\\" /Fd"cmTryCompileExec3953223012.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec3953223012.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3953223012.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/timeb.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2136719867
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2136719867, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2136719867.dir\Debug\\" /Fd"cmTryCompileExec2136719867.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec2136719867.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2136719867.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file tchar.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec551958321
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec551958321, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec551958321.dir\Debug\\" /Fd"cmTryCompileExec551958321.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec551958321.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec551958321.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the include file winerror.h exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1915259628
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1915259628, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1915259628.dir\Debug\\" /Fd"cmTryCompileExec1915259628.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>  cmTryCompileExec1915259628.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1915259628.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec250574694
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec250574694, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec250574694.dir\Debug\\" /Fd"cmTryCompileExec250574694.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_INT8_T.c
+1>  
+1>  _CL_HAVE_TYPE_INT8_T.c
+1>  cmTryCompileExec250574694.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec250574694.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4195605960
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4195605960, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4195605960.dir\Debug\\" /Fd"cmTryCompileExec4195605960.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_UINT8_T.c
+1>  
+1>  _CL_HAVE_TYPE_UINT8_T.c
+1>  cmTryCompileExec4195605960.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4195605960.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec421314365
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec421314365, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec421314365.dir\Debug\\" /Fd"cmTryCompileExec421314365.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_INT16_T.c
+1>  
+1>  _CL_HAVE_TYPE_INT16_T.c
+1>  cmTryCompileExec421314365.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec421314365.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3796782287
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3796782287, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3796782287.dir\Debug\\" /Fd"cmTryCompileExec3796782287.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_UINT16_T.c
+1>  
+1>  _CL_HAVE_TYPE_UINT16_T.c
+1>  cmTryCompileExec3796782287.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3796782287.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2910480697
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2910480697, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2910480697.dir\Debug\\" /Fd"cmTryCompileExec2910480697.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_INT32_T.c
+1>  
+1>  _CL_HAVE_TYPE_INT32_T.c
+1>  cmTryCompileExec2910480697.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2910480697.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1154955610
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1154955610, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1154955610.dir\Debug\\" /Fd"cmTryCompileExec1154955610.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_UINT32_T.c
+1>  
+1>  _CL_HAVE_TYPE_UINT32_T.c
+1>  cmTryCompileExec1154955610.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1154955610.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2636707256
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2636707256, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2636707256.dir\Debug\\" /Fd"cmTryCompileExec2636707256.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_INT64_T.c
+1>  
+1>  _CL_HAVE_TYPE_INT64_T.c
+1>  cmTryCompileExec2636707256.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2636707256.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2070488269
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2070488269, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2070488269.dir\Debug\\" /Fd"cmTryCompileExec2070488269.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_UINT64_T.c
+1>  
+1>  _CL_HAVE_TYPE_UINT64_T.c
+1>  cmTryCompileExec2070488269.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2070488269.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2363728805
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2363728805, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2363728805.dir\Debug\\" /Fd"cmTryCompileExec2363728805.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_SIZE_T.c
+1>  
+1>  _CL_HAVE_TYPE_SIZE_T.c
+1>  cmTryCompileExec2363728805.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2363728805.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION__TIMEB succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2974529752
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2974529752, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_OPTION__TIMEB /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2974529752.dir\Debug\\" /Fd"cmTryCompileExec2974529752.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(5): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+1>  cmTryCompileExec2974529752.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2974529752.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct _timeb x; 
+            	    }
+Determining size of DWORD passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2503244032
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2503244032, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2503244032.dir\Debug\\" /Fd"cmTryCompileExec2503244032.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_DWORD.c
+1>  
+1>  _CL_HAVE_TYPE_DWORD.c
+1>  cmTryCompileExec2503244032.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2503244032.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1484236097
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1484236097, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1484236097.dir\Debug\\" /Fd"cmTryCompileExec1484236097.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_LONG.c
+1>  
+1>  _CL_HAVE_TYPE_LONG.c
+1>  cmTryCompileExec1484236097.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1484236097.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2768695779
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2768695779, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=printf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2768695779.dir\Debug\\" /Fd"cmTryCompileExec2768695779.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2768695779.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2768695779.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec70962068
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec70962068, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strftime /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec70962068.dir\Debug\\" /Fd"cmTryCompileExec70962068.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec70962068.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec70962068.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcscpy exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3951445132
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3951445132, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3951445132.dir\Debug\\" /Fd"cmTryCompileExec3951445132.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec3951445132.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3951445132.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsncpy exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1922361503
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1922361503, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1922361503.dir\Debug\\" /Fd"cmTryCompileExec1922361503.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1922361503.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1922361503.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcscat exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec957825067
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec957825067, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec957825067.dir\Debug\\" /Fd"cmTryCompileExec957825067.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec957825067.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec957825067.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcschr exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2715993003
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2715993003, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcschr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2715993003.dir\Debug\\" /Fd"cmTryCompileExec2715993003.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2715993003.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2715993003.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsstr exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2451420191
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2451420191, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2451420191.dir\Debug\\" /Fd"cmTryCompileExec2451420191.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2451420191.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2451420191.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcslen exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2948209905
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2948209905, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcslen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2948209905.dir\Debug\\" /Fd"cmTryCompileExec2948209905.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2948209905.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2948209905.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcscmp exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec411425600
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec411425600, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec411425600.dir\Debug\\" /Fd"cmTryCompileExec411425600.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec411425600.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec411425600.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsncmp exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1756274678
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1756274678, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsncmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1756274678.dir\Debug\\" /Fd"cmTryCompileExec1756274678.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1756274678.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1756274678.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcscspn exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec939168532
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec939168532, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscspn /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec939168532.dir\Debug\\" /Fd"cmTryCompileExec939168532.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec939168532.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec939168532.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsupr exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1422540193
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1422540193, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1422540193.dir\Debug\\" /Fd"cmTryCompileExec1422540193.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1422540193.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1422540193.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsicmp exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3842109320
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3842109320, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsicmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3842109320.dir\Debug\\" /Fd"cmTryCompileExec3842109320.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec3842109320.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3842109320.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wprintf exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec335599610
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec335599610, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec335599610.dir\Debug\\" /Fd"cmTryCompileExec335599610.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec335599610.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec335599610.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcstod exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec410175012
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec410175012, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstod /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec410175012.dir\Debug\\" /Fd"cmTryCompileExec410175012.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec410175012.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec410175012.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcsdup exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2423827764
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2423827764, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2423827764.dir\Debug\\" /Fd"cmTryCompileExec2423827764.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2423827764.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2423827764.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function strupr exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec51656032
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec51656032, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strupr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec51656032.dir\Debug\\" /Fd"cmTryCompileExec51656032.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec51656032.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec51656032.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function strlwr exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2617180236
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2617180236, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlwr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2617180236.dir\Debug\\" /Fd"cmTryCompileExec2617180236.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2617180236.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2617180236.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function _vsnwprintf exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4247751877
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4247751877, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_vsnwprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4247751877.dir\Debug\\" /Fd"cmTryCompileExec4247751877.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec4247751877.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4247751877.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the stdcall function MapViewOfFile(0,0,0,0,0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec576532409
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec576532409, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec576532409.dir\Debug\\" /Fd"cmTryCompileExec576532409.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec576532409.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec576532409.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  MapViewOfFile(0,0,0,0,0);
+  return 0;
+}
+
+
+Determining if the function _fstati64 exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1552252644
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1552252644, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_fstati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1552252644.dir\Debug\\" /Fd"cmTryCompileExec1552252644.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1552252644.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1552252644.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function _stati64 exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2207722168
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2207722168, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_stati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2207722168.dir\Debug\\" /Fd"cmTryCompileExec2207722168.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec2207722168.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2207722168.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function _filelengthi64 exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3491674710
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3491674710, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3491674710.dir\Debug\\" /Fd"cmTryCompileExec3491674710.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec3491674710.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3491674710.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function _lseeki64 exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1494416619
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1494416619, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_lseeki64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1494416619.dir\Debug\\" /Fd"cmTryCompileExec1494416619.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec1494416619.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1494416619.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION__STATI64 succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1915741303
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1915741303, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_OPTION__STATI64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1915741303.dir\Debug\\" /Fd"cmTryCompileExec1915741303.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(7): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+1>  cmTryCompileExec1915741303.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1915741303.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct _stati64 x; 
+            	    }
+Determining if the function _telli64 exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4177801076
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4177801076, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_telli64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4177801076.dir\Debug\\" /Fd"cmTryCompileExec4177801076.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec4177801076.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4177801076.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function rename exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec396028168
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec396028168, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rename /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec396028168.dir\Debug\\" /Fd"cmTryCompileExec396028168.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec396028168.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec396028168.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the stdcall function _close((int)0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec115874261
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec115874261, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec115874261.dir\Debug\\" /Fd"cmTryCompileExec115874261.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec115874261.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec115874261.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _close((int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _read((int)0, (void*)0, (unsigned int)0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4104719511
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4104719511, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4104719511.dir\Debug\\" /Fd"cmTryCompileExec4104719511.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec4104719511.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4104719511.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _read((int)0, (void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _open(0,0,0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec680336177
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec680336177, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec680336177.dir\Debug\\" /Fd"cmTryCompileExec680336177.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>CheckStdCallFunctionExists.cpp(14): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(243) : '_open' 선언을 참조하십시오.
+1>  cmTryCompileExec680336177.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec680336177.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _open(0,0,0);
+  return 0;
+}
+
+
+Determining if the stdcall function _write((int)0, (const void*)0, (unsigned int)0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3269955666
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3269955666, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3269955666.dir\Debug\\" /Fd"cmTryCompileExec3269955666.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec3269955666.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3269955666.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _write((int)0, (const void*)0, (unsigned int)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _unlink((const char*)0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4074437426
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4074437426, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4074437426.dir\Debug\\" /Fd"cmTryCompileExec4074437426.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec4074437426.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4074437426.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _unlink((const char*)0);
+  return 0;
+}
+
+
+Determining if the stdcall function _ftime(0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1751325303
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1751325303, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1751325303.dir\Debug\\" /Fd"cmTryCompileExec1751325303.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>CheckStdCallFunctionExists.cpp(14): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\sys/timeb.h(124) : '_ftime64' 선언을 참조하십시오.
+1>  cmTryCompileExec1751325303.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1751325303.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _ftime(0);
+  return 0;
+}
+
+
+Determining if the stdcall function _mkdir((const char*)0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2522998398
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2522998398, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2522998398.dir\Debug\\" /Fd"cmTryCompileExec2522998398.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec2522998398.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2522998398.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  _mkdir((const char*)0);
+  return 0;
+}
+
+
+Determining if the stdcall function Sleep(0) exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3111357290
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3111357290, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3111357290.dir\Debug\\" /Fd"cmTryCompileExec3111357290.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckStdCallFunctionExists.cpp
+1>  
+1>  CheckStdCallFunctionExists.cpp
+1>  cmTryCompileExec3111357290.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3111357290.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+CheckStdCallFunctionExists.cpp:
+#include "windows.h"
+#include "direct.h"
+#include "io.h"
+#include "sys/timeb.h"
+
+
+#ifdef __CLASSIC_C__
+int main(){
+  int ac;
+  char*av[];
+#else
+int main(int ac, char*av[]){
+#endif
+  Sleep(0);
+  return 0;
+}
+
+
+Determining if the function _snprintf exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4273546493
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4273546493, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_snprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4273546493.dir\Debug\\" /Fd"cmTryCompileExec4273546493.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec4273546493.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4273546493.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the function _snwprintf exists passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4081835305
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4081835305, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_snwprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4081835305.dir\Debug\\" /Fd"cmTryCompileExec4081835305.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>  cmTryCompileExec4081835305.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4081835305.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the _O_RANDOM exist passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3306187566
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3306187566, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3306187566.dir\Debug\\" /Fd"cmTryCompileExec3306187566.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckSymbolExists.c
+1>  
+1>  CheckSymbolExists.c
+1>  cmTryCompileExec3306187566.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3306187566.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+File C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_RANDOM
+  return ((int*)(&_O_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _O_BINARY exist passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1120997213
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1120997213, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1120997213.dir\Debug\\" /Fd"cmTryCompileExec1120997213.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckSymbolExists.c
+1>  
+1>  CheckSymbolExists.c
+1>  cmTryCompileExec1120997213.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1120997213.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+File C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _O_BINARY
+  return ((int*)(&_O_BINARY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IREAD exist passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2318079675
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2318079675, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2318079675.dir\Debug\\" /Fd"cmTryCompileExec2318079675.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckSymbolExists.c
+1>  
+1>  CheckSymbolExists.c
+1>  cmTryCompileExec2318079675.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2318079675.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+File C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IREAD
+  return ((int*)(&_S_IREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _S_IWRITE exist passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4218055368
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4218055368, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4218055368.dir\Debug\\" /Fd"cmTryCompileExec4218055368.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckSymbolExists.c
+1>  
+1>  CheckSymbolExists.c
+1>  cmTryCompileExec4218055368.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4218055368.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+File C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _S_IWRITE
+  return ((int*)(&_S_IWRITE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of TCHAR passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec391446756
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec391446756, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec391446756.dir\Debug\\" /Fd"cmTryCompileExec391446756.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CheckTypeSize\_CL_HAVE_TYPE_TCHAR.c
+1>  
+1>  _CL_HAVE_TYPE_TCHAR.c
+1>  cmTryCompileExec391446756.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec391446756.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+
+Determining if the _T exist passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1029379976
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1029379976, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1029379976.dir\Debug\\" /Fd"cmTryCompileExec1029379976.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckSymbolExists.c
+1>  
+1>  CheckSymbolExists.c
+1>  cmTryCompileExec1029379976.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1029379976.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+File C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <sys/stat.h>
+#include <tchar.h>
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _T
+  return ((int*)(&_T))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _CL_HAVE_TRY_BLOCKS succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4013187239
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4013187239, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_TRY_BLOCKS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4013187239.dir\Debug\\" /Fd"cmTryCompileExec4013187239.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>  cmTryCompileExec4013187239.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4013187239.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Return value: 1
+Source file was:
+
+    	void foo() { try{ return; } catch( ... ){} }
+    	int main(){ foo(); return 0; }
+Performing C++ SOURCE FILE Test _CL_HAVE_STD_HASHMAP succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2872174207
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2872174207, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_STD_HASHMAP /D _DEBUG /D _CL_HAVE_HASH_MAP=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2872174207.dir\Debug\\" /Fd"cmTryCompileExec2872174207.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>  cmTryCompileExec2872174207.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2872174207.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Source file was:
+
+#if defined(_CL_HAVE_HASH_MAP)
+	#include <hash_map>
+#elif defined(_CL_HAVE_EXT_HASH_MAP)
+	#include <ext/hash_map>
+#elif defined(_CL_HAVE_TR1_UNORDERED_MAP)
+	#include <tr1/unordered_map>
+#endif
+int main() {  
+    std::hash_map<int,char> a; 
+    return 0; 
+}
+        
+Performing C++ SOURCE FILE Test _CL_HAVE_NAMESPACES succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1434476026
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1434476026, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_NAMESPACES /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1434476026.dir\Debug\\" /Fd"cmTryCompileExec1434476026.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>  cmTryCompileExec1434476026.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1434476026.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Return value: 1
+Source file was:
+
+    	namespace Outer { namespace Inner { int i = 0; }}
+    	int main(){ using namespace Outer::Inner; return i; }
+Performing C++ SOURCE FILE Test _CL_ILONGLONG_LL succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1714827793
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1714827793, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_ILONGLONG_LL /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1714827793.dir\Debug\\" /Fd"cmTryCompileExec1714827793.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>  cmTryCompileExec1714827793.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1714827793.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Source file was:
+int main(){ int x = (int)(1234LL); }
+Performing C++ SOURCE FILE Test LUCENE_STATIC_CONSTANT_SYNTAX succeded with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2632103414
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2632103414, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D LUCENE_STATIC_CONSTANT_SYNTAX /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2632103414.dir\Debug\\" /Fd"cmTryCompileExec2632103414.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(1): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+1>  cmTryCompileExec2632103414.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2632103414.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+Return value: 1
+Source file was:
+class x{public: static const int SCI=55; }; int main(){ x a; if ( a.SCI!=55 ) throw "err"; return 0; }
+Determining if the CXX compiler understands ansi for scopes passed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec705020806
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec705020806, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec705020806.dir\Debug\\" /Fd"cmTryCompileExec705020806.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\TestForAnsiForScope.cxx"
+1>  
+1>  TestForAnsiForScope.cxx
+1>  cmTryCompileExec705020806.vcxproj -> C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec705020806.exe
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========
+
+

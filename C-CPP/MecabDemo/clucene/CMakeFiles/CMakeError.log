@@ -1,0 +1,735 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: CompilerIdC, 구성: Debug x64 ------
+1>  CMakeCCompilerId.c
+1>c1 : fatal error C1083: 소스 파일을 열 수 없습니다. 'CMakeCCompilerId.c': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: CompilerIdCXX, 구성: Debug x64 ------
+1>  CMakeCXXCompilerId.cpp
+1>c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'CMakeCXXCompilerId.cpp': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if files pthread.h exist failed with the following output:
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2432361000
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2432361000, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2432361000.dir\Debug\\" /Fd"cmTryCompileExec2432361000.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckIncludeFiles.c
+1>  
+1>  CheckIncludeFiles.c
+1>CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/time.h;time.h exist failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec116422963
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec116422963, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec116422963.dir\Debug\\" /Fd"cmTryCompileExec116422963.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt CheckIncludeFiles.c
+1>  
+1>  CheckIncludeFiles.c
+1>CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Source:
+/* */
+#include <sys/time.h>
+#include <time.h>
+
+
+int main(){return 0;}
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3855047988
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3855047988, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3855047988.dir\Debug\\" /Fd"cmTryCompileExec3855047988.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/time.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3932921126
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3932921126, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3932921126.dir\Debug\\" /Fd"cmTryCompileExec3932921126.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/dir.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2997531514
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2997531514, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2997531514.dir\Debug\\" /Fd"cmTryCompileExec2997531514.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/dir.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3558789943
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3558789943, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3558789943.dir\Debug\\" /Fd"cmTryCompileExec3558789943.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/ndir.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2832847582
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2832847582, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2832847582.dir\Debug\\" /Fd"cmTryCompileExec2832847582.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'dirent.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file stat.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4054690361
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4054690361, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4054690361.dir\Debug\\" /Fd"cmTryCompileExec4054690361.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stat.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file windef.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2583020746
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2583020746, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2583020746.dir\Debug\\" /Fd"cmTryCompileExec2583020746.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(146): fatal error C1189: #error :  "No Target Architecture"
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file ext/hash_map exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1241531190
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1241531190, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1241531190.dir\Debug\\" /Fd"cmTryCompileExec1241531190.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'ext/hash_map': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1258440708
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1258440708, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1258440708.dir\Debug\\" /Fd"cmTryCompileExec1258440708.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'tr1/unordered_set': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2794737096
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2794737096, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2794737096.dir\Debug\\" /Fd"cmTryCompileExec2794737096.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'tr1/unordered_map': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3279726840
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3279726840, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3279726840.dir\Debug\\" /Fd"cmTryCompileExec3279726840.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'strings.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec564421490
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec564421490, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec564421490.dir\Debug\\" /Fd"cmTryCompileExec564421490.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>CheckIncludeFile.cxx(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/mman.h': No such file or directory
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Performing C++ SOURCE FILE Test HAVE_SYMBOL_FLOAT_T failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec186174350
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec186174350, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SYMBOL_FLOAT_T /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec186174350.dir\Debug\\" /Fd"cmTryCompileExec186174350.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(3): error C2065: 'float_t' : 선언되지 않은 식별자입니다.
+1>src.cxx(3): error C2146: 구문 오류 : ';'이(가) 'x' 식별자 앞에 없습니다.
+1>src.cxx(3): error C2065: 'x' : 선언되지 않은 식별자입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Source file was:
+
+    	#include <math.h>
+    	int main(){ float_t x=0.0; }
+Determining if the function wcscasecmp exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4232193310
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec4232193310, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcscasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4232193310.dir\Debug\\" /Fd"cmTryCompileExec4232193310.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: wcscasecmp 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4232193310.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function wcstoll exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2759589966
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2759589966, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2759589966.dir\Debug\\" /Fd"cmTryCompileExec2759589966.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: wcstoll 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2759589966.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function lltow exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1510198620
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1510198620, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lltow /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1510198620.dir\Debug\\" /Fd"cmTryCompileExec1510198620.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: lltow 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1510198620.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function lltoa exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3957642724
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3957642724, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lltoa /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3957642724.dir\Debug\\" /Fd"cmTryCompileExec3957642724.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: lltoa 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3957642724.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function strtoll exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2841608604
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2841608604, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2841608604.dir\Debug\\" /Fd"cmTryCompileExec2841608604.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: strtoll 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2841608604.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3052066529
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3052066529, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3052066529.dir\Debug\\" /Fd"cmTryCompileExec3052066529.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: gettimeofday 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3052066529.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec452497331
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec452497331, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec452497331.dir\Debug\\" /Fd"cmTryCompileExec452497331.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: mmap 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec452497331.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function fstati64 exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3663427486
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3663427486, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fstati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3663427486.dir\Debug\\" /Fd"cmTryCompileExec3663427486.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: fstati64 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3663427486.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function stati64 exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1968523335
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1968523335, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=stati64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1968523335.dir\Debug\\" /Fd"cmTryCompileExec1968523335.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: stati64 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1968523335.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function filelengthi64 exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3005201223
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3005201223, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=filelengthi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3005201223.dir\Debug\\" /Fd"cmTryCompileExec3005201223.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: filelengthi64 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3005201223.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function lseeki64 exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec81809481
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec81809481, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lseeki64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec81809481.dir\Debug\\" /Fd"cmTryCompileExec81809481.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: lseeki64 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec81809481.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_OPTION_STATI64 failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1537198981
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1537198981, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_OPTION_STATI64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1537198981.dir\Debug\\" /Fd"cmTryCompileExec1537198981.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(7): error C2079: 'x'은(는) 정의되지 않은 struct 'main::stati64'을(를) 사용합니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Source file was:
+
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+    	    #include "sys/stat.h"
+    	    #include "sys/timeb.h"
+            	    int main(){
+            	        struct stati64 x; 
+            	    }
+Determining if the function telli64 exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3650704078
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3650704078, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=telli64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3650704078.dir\Debug\\" /Fd"cmTryCompileExec3650704078.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: telli64 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3650704078.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function realpath exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec293568572
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec293568572, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=realpath /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec293568572.dir\Debug\\" /Fd"cmTryCompileExec293568572.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: realpath 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec293568572.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function usleep exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1248613841
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec1248613841, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=usleep /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1248613841.dir\Debug\\" /Fd"cmTryCompileExec1248613841.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: usleep 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1248613841.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3217096044
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3217096044, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3217096044.dir\Debug\\" /Fd"cmTryCompileExec3217096044.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: snprintf 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3217096044.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Determining if the function snwprintf exists failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2896580228
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2896580228, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snwprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2896580228.dir\Debug\\" /Fd"cmTryCompileExec2896580228.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>CheckFunctionExists.obj : error LNK2019: snwprintf 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+1>C:\YungYiKim\Git\MecabDemo\clucene\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2896580228.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+
+Performing C++ SOURCE FILE Test _CL_HAVE_GCC_ATOMIC_FUNCTIONS failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3933601859
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec3933601859, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_GCC_ATOMIC_FUNCTIONS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3933601859.dir\Debug\\" /Fd"cmTryCompileExec3933601859.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(7): error C3861: '__sync_add_and_fetch': 식별자를 찾을 수 없습니다.
+1>src.cxx(8): error C3861: '__sync_synchronize': 식별자를 찾을 수 없습니다.
+1>src.cxx(9): error C3861: '__sync_sub_and_fetch': 식별자를 찾을 수 없습니다.
+1>src.cxx(10): error C3861: '__sync_bool_compare_and_swap': 식별자를 찾을 수 없습니다.
+1>src.cxx(13): error C3861: '__sync_bool_compare_and_swap': 식별자를 찾을 수 없습니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Return value: 1
+Source file was:
+
+#include <cstdlib>
+int main()
+{
+   unsigned value = 0;
+   void* ptr = &value;
+   __sync_add_and_fetch(&value, 1);
+   __sync_synchronize();
+   __sync_sub_and_fetch(&value, 1);
+   if (!__sync_bool_compare_and_swap(&value, 0, 1))
+      return EXIT_FAILURE;
+   
+   if (!__sync_bool_compare_and_swap(&ptr, ptr, ptr))
+      return EXIT_FAILURE;
+
+   return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test _CL_HAVE_STD__TR1_HASHMAP failed with the following output:
+Change Dir: C:/YungYiKim/Git/MecabDemo/clucene/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2817876247
+
+Microsoft (R) Microsoft Visual Studio 2012 버전 11.0.61030.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ 빌드 시작: 프로젝트: cmTryCompileExec2817876247, 구성: Debug x64 ------
+1>  Microsoft (R) C/C++ 최적화 컴파일러 버전 17.00.61030(x64)
+1>  Copyright (c) Microsoft Corporation. All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CL_HAVE_STD__TR1_HASHMAP /D _DEBUG /D _CL_HAVE_HASH_MAP=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2817876247.dir\Debug\\" /Fd"cmTryCompileExec2817876247.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>src.cxx(10): error C2039: 'hash_map' : 'std::tr1'의 멤버가 아닙니다.
+1>src.cxx(10): error C2065: 'hash_map' : 선언되지 않은 식별자입니다.
+1>src.cxx(10): error C2062: 예기치 않은 'int' 형식입니다.
+========== 빌드: 성공 0, 실패 1, 최신 0, 생략 0 ==========
+
+Source file was:
+
+#if defined(_CL_HAVE_HASH_MAP)
+	#include <hash_map>
+#elif defined(_CL_HAVE_EXT_HASH_MAP)
+	#include <ext/hash_map>
+#elif defined(_CL_HAVE_TR1_UNORDERED_MAP)
+	#include <tr1/unordered_map>
+#endif
+int main() {  
+    std::tr1::hash_map<int,char> a; 
+    return 0; 
+}
+        

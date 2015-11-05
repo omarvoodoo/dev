@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CLucene\StdHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\debug\error.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\ThreadLocal.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\Reader.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\Equators.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\FastCharStream.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\MD5Digester.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\StringIntern.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\BitSet.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\FastCharStream.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\MultiFieldQueryParser.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\QueryParser.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\QueryParserTokenManager.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\QueryToken.cpp">
+      <Filter>queryParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\Lexer.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\MultiFieldQueryParser.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\QueryParser.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\QueryParserBase.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\QueryToken.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\queryParser\legacy\TokenList.cpp">
+      <Filter>queryParser-legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\analysis\standard\StandardAnalyzer.cpp">
+      <Filter>analysis-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\analysis\standard\StandardFilter.cpp">
+      <Filter>analysis-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\analysis\standard\StandardTokenizer.cpp">
+      <Filter>analysis-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\analysis\Analyzers.cpp">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\analysis\AnalysisHeader.cpp">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\MMapInput.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\IndexInput.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\Lock.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\LockFactory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\IndexOutput.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\Directory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\FSDirectory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\store\RAMDirectory.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\Document.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\DateField.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\DateTools.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\Field.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\FieldSelector.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\document\NumberTools.cpp">
+      <Filter>document</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexFileNames.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexFileNameFilter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexDeletionPolicy.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentMergeInfo.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentInfos.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\MergeScheduler.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentTermDocs.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\FieldsWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\TermInfosWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\Term.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\Terms.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\MergePolicy.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\DocumentsWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\DocumentsWriterThreadState.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentTermVector.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\TermVectorReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\FieldInfos.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\CompoundFile.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SkipListReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SkipListWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexFileDeleter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\DirectoryIndexReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\TermVectorWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentTermPositions.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentMerger.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexWriter.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\MultiReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\MultiSegmentReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\Payload.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentTermEnum.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\TermInfo.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\IndexModifier.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\SegmentMergeQueue.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\FieldsReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\TermInfosReader.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\index\MultipleTermPositions.cpp">
+      <Filter>index</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Compare.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Scorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\ScorerDocQueue.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\PhraseScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\SloppyPhraseScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\DisjunctionSumScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\ConjunctionScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\PhraseQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\PrefixQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\ExactPhraseScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\TermScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Similarity.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\BooleanScorer.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\BooleanScorer2.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\HitQueue.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FieldCacheImpl.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\ChainedFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\RangeFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\CachingWrapperFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\QueryFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\TermQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FuzzyQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\SearchHeader.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\RangeQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\IndexSearcher.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Sort.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\PhrasePositions.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FieldDocSortedHitQueue.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\WildcardTermEnum.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\MultiSearcher.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Hits.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\MultiTermQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FilteredTermEnum.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FieldSortedHitQueue.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\WildcardQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\Explanation.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\BooleanQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\FieldCache.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\DateFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\MatchAllDocsQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\MultiPhraseQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\ConstantScoreQuery.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\CachingSpanFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\SpanQueryFilter.cpp">
+      <Filter>search</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\NearSpansOrdered.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\NearSpansUnordered.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanFirstQuery.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanNearQuery.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanNotQuery.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanOrQuery.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanScorer.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanTermQuery.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\SpanWeight.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\search\spans\TermSpans.cpp">
+      <Filter>search-spans</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLucene\search\CachingSpanFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\SpanFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\SpanFilterResult.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\SpanQueryFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\_EmptySpans.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\_NearSpansOrdered.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\_NearSpansUnordered.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\_TermSpans.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanFirstQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanNearQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanNotQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanOrQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\Spans.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanScorer.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanTermQuery.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\spans\SpanWeight.h">
+      <Filter>search-spans</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\AnalysisHeader.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\Analyzers.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\CachingTokenFilter.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\standard\StandardAnalyzer.h">
+      <Filter>analysis-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\standard\StandardFilter.h">
+      <Filter>analysis-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\standard\StandardTokenizer.h">
+      <Filter>analysis-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\analysis\standard\StandardTokenizerConstants.h">
+      <Filter>analysis-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\CLConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\debug\error.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\debug\lucenebase.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\debug\mem.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\DateField.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\DateTools.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\Document.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\Field.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\FieldSelector.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\document\NumberTools.h">
+      <Filter>document</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\DirectoryIndexReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\IndexDeletionPolicy.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\IndexModifier.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\IndexReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\IndexWriter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\MergePolicy.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\MergeScheduler.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\MultipleTermPositions.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\MultiReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\Payload.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\Term.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\Terms.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\TermVector.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_CompoundFile.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_DocumentsWriter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_FieldInfo.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_FieldInfos.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_FieldsReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_FieldsWriter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_IndexFileDeleter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_IndexFileNameFilter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_IndexFileNames.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_MultiSegmentReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentHeader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentInfos.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentMergeInfo.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentMergeQueue.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentMerger.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SegmentTermEnum.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SkipListReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_SkipListWriter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_Term.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_TermInfo.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_TermInfosReader.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_TermInfosWriter.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\index\_TermVector.h">
+      <Filter>index</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\legacy\MultiFieldQueryParser.h">
+      <Filter>queryParser-legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\legacy\QueryParser.h">
+      <Filter>queryParser-legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\legacy\QueryToken.h">
+      <Filter>queryParser-legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\legacy\_Lexer.h">
+      <Filter>queryParser-legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\legacy\_TokenList.h">
+      <Filter>queryParser-legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\MultiFieldQueryParser.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\QueryParser.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\QueryParserConstants.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\QueryParserTokenManager.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\QueryToken.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\_CharStream.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\queryParser\_FastCharStream.h">
+      <Filter>queryParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\BooleanClause.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\BooleanQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\CachingWrapperFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\ChainedFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Compare.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\ConstantScoreQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\DateFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Explanation.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FieldCache.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FieldDoc.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FieldSortedHitQueue.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Filter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FilteredTermEnum.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FilterResultCache.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\FuzzyQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Hits.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\IndexSearcher.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\MatchAllDocsQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\MultiPhraseQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\MultiSearcher.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\MultiTermQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\PhraseQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\PrefixQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Query.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\QueryFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\RangeFilter.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\RangeQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Scorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\ScorerDocQueue.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Searchable.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\SearchHeader.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Similarity.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\Sort.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\TermQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\WildcardQuery.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\WildcardTermEnum.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_BooleanScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_BooleanScorer2.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_ConjunctionScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_DisjunctionSumScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_ExactPhraseScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_FieldCacheImpl.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_FieldDocSortedHitQueue.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_HitQueue.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_PhrasePositions.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_PhraseQueue.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_PhraseScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_SloppyPhraseScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\search\_TermScorer.h">
+      <Filter>search</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\StdHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\Directory.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\FSDirectory.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\IndexInput.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\IndexOutput.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\Lock.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\LockFactory.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\RAMDirectory.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\_Lock.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\_MMapIndexInput.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\store\_RAMDirectory.h">
+      <Filter>store</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\Array.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\BitSet.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\CLStreams.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\Equators.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\PriorityQueue.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\Reader.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\VoidList.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\VoidMap.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_Arrays.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_bufferedstream.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_FastCharStream.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_MD5Digester.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_streambase.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_streambuffer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_StringIntern.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_ThreadLocal.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_VoidList.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\_VoidMap.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\_ApiHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E87C2566-3C03-4BFC-97BC-20458A29BDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FE137E72-B196-4F02-B8EC-B98B1697ECDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis">
+      <UniqueIdentifier>{6CF0E2D8-5075-41FE-B9AD-DFDD18BFAB18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis-standard">
+      <UniqueIdentifier>{3FEE9180-2E3B-47A8-ACB6-B0D0E7A51E19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="document">
+      <UniqueIdentifier>{9CED0706-A8F5-446D-BBD9-C5F716B87530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{61E6A763-53EE-4F72-8AF0-490D88A4DA97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="index">
+      <UniqueIdentifier>{EB8D8E3D-3355-4132-BDA1-65FBF705F1C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queryParser">
+      <UniqueIdentifier>{7479E6AA-ADE5-4BCB-BCE8-F70D454AE4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queryParser-legacy">
+      <UniqueIdentifier>{18FA4331-FE8A-4293-B87F-6453959EA7D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search">
+      <UniqueIdentifier>{F69D1E30-7D99-45D5-99B4-E76ECBA87C83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="search-spans">
+      <UniqueIdentifier>{78E29D99-3885-4047-BA25-3D595B8632F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="store">
+      <UniqueIdentifier>{32196955-8EFE-4264-BCC5-60041890F7A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{06182B57-28FC-4F88-98C8-23C4BEFFC9B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

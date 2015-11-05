@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F27D3188-4676-4AEE-80D8-DC1CF7C8A7B7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cl_test</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_REENTRANT;_UCS2;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_REENTRANT;_UCS2;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\bin\Debug\clucene-cored.lib;..\..\bin\Debug\clucene-sharedd.lib;$(SolutionDir)src/ext/zlib/zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/YungYiKim/Git/MecabDemo/clucene/bin/Debug/cl_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/YungYiKim/Git/MecabDemo/clucene/bin/Debug/cl_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_REENTRANT;_UCS2;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_REENTRANT;_UCS2;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\YungYiKim\Git\MecabDemo\clucene\src\shared;C:\YungYiKim\Git\MecabDemo\clucene\src\core;C:\YungYiKim\Git\MecabDemo\clucene\src\ext;C:\YungYiKim\Git\MecabDemo\clucene\src\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\bin\clucene-core.lib;..\..\bin\clucene-shared.lib;$(SolutionDir)src/ext/zlib/zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/YungYiKim/Git/MecabDemo/clucene/bin/Release/cl_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/YungYiKim/Git/MecabDemo/clucene/bin/Release/cl_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/YungYiKim/Git/MecabDemo/clucene -BC:/YungYiKim/Git/MecabDemo/clucene --check-stamp-file C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\cmake\DefineOptions.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/YungYiKim/Git/MecabDemo/clucene -BC:/YungYiKim/Git/MecabDemo/clucene --check-stamp-file C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/YungYiKim/Git/MecabDemo/clucene/src/test/CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeLists.txt;C:\YungYiKim\Git\MecabDemo\clucene\cmake\DefineOptions.cmake;C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\YungYiKim\Git\MecabDemo\clucene\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="search\MockScorer.h" />
+    <ClInclude Include="search\MockHitCollector.h" />
+    <ClInclude Include="search\BaseTestRangeFilter.h" />
+    <ClInclude Include="search\QueryUtils.h" />
+    <ClInclude Include="search\CheckHits.h" />
+    <ClInclude Include="search\TestExplanations.h" />
+    <ClInclude Include="search\spans\TestSpans.h" />
+    <ClInclude Include="search\spans\TestBasics.h" />
+    <ClInclude Include="search\spans\TestSpansAdvanced.h" />
+    <ClInclude Include="search\spans\TestSpansAdvanced2.h" />
+    <ClInclude Include="search\spans\TestNearSpansOrdered.h" />
+    <ClInclude Include="search\spans\TestSpanExplanations.h" />
+    <ClInclude Include="search\spans\TestSpanExplanationsOfNonMatches.h" />
+    <ClCompile Include="tests.cpp" />
+    <ClCompile Include="CuTest.cpp" />
+    <ClCompile Include="testall.cpp" />
+    <ClCompile Include="queryParser\TestQueryParser.cpp" />
+    <ClCompile Include="queryParser\TestMultiFieldQueryParser.cpp" />
+    <ClCompile Include="analysis\TestAnalysis.cpp" />
+    <ClCompile Include="analysis\TestAnalyzers.cpp" />
+    <ClCompile Include="debug\TestError.cpp" />
+    <ClCompile Include="document\TestDateTools.cpp" />
+    <ClCompile Include="document\TestDocument.cpp" />
+    <ClCompile Include="document\TestNumberTools.cpp" />
+    <ClCompile Include="document\TestField.cpp" />
+    <ClCompile Include="store\TestStore.cpp" />
+    <ClCompile Include="store\MockRAMDirectory.cpp" />
+    <ClCompile Include="store\TestRAMDirectory.cpp" />
+    <ClCompile Include="search\TestBoolean.cpp" />
+    <ClCompile Include="search\TestDateFilter.cpp" />
+    <ClCompile Include="search\TestForDuplicates.cpp" />
+    <ClCompile Include="search\TestQueries.cpp" />
+    <ClCompile Include="search\TestRangeFilter.cpp" />
+    <ClCompile Include="search\TestSearch.cpp" />
+    <ClCompile Include="search\TestSort.cpp" />
+    <ClCompile Include="search\TestWildcard.cpp" />
+    <ClCompile Include="search\TestTermVector.cpp" />
+    <ClCompile Include="search\TestExtractTerms.cpp" />
+    <ClCompile Include="search\TestConstantScoreRangeQuery.cpp" />
+    <ClCompile Include="search\TestIndexSearcher.cpp" />
+    <ClCompile Include="index\IndexWriter4Test.cpp" />
+    <ClCompile Include="search\BaseTestRangeFilter.cpp" />
+    <ClCompile Include="search\QueryUtils.cpp" />
+    <ClCompile Include="search\CheckHits.cpp" />
+    <ClCompile Include="search\TestExplanations.cpp" />
+    <ClCompile Include="search\spans\TestSpans.cpp" />
+    <ClCompile Include="search\spans\TestSpanQueries.cpp" />
+    <ClCompile Include="search\spans\TestBasics.cpp" />
+    <ClCompile Include="search\spans\TestSpansAdvanced.cpp" />
+    <ClCompile Include="search\spans\TestSpansAdvanced2.cpp" />
+    <ClCompile Include="search\spans\TestNearSpansOrdered.cpp" />
+    <ClCompile Include="search\spans\TestSpanExplanations.cpp" />
+    <ClCompile Include="search\spans\TestSpanExplanationsOfNonMatches.cpp" />
+    <ClCompile Include="index\TestIndexModifier.cpp" />
+    <ClCompile Include="index\TestIndexWriter.cpp" />
+    <ClCompile Include="index\TestIndexReader.cpp" />
+    <ClCompile Include="index\TestThreading.cpp" />
+    <ClCompile Include="index\TestUtf8.cpp" />
+    <ClCompile Include="index\TestHighFreqTerms.cpp" />
+    <ClCompile Include="index\TestReuters.cpp" />
+    <ClCompile Include="index\TestAddIndexesNoOptimize.cpp" />
+    <ClCompile Include="index\TestTermVectorsReader.cpp" />
+    <ClCompile Include="util\TestPriorityQueue.cpp" />
+    <ClCompile Include="util\TestBitSet.cpp" />
+    <ClCompile Include="util\TestStringBuffer.cpp" />
+    <ClCompile Include="util\English.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ZERO_CHECK.vcxproj">
+      <Project>{a245d697-d230-4865-a2e7-e1e0d315bc7c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\core\clucene-core.vcxproj">
+      <Project>{2ab3f3bf-7317-4ccc-a3dd-8448b0c41a9c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\shared\clucene-shared.vcxproj">
+      <Project>{d28743be-9829-48ef-97ec-b8ec2e050d8c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

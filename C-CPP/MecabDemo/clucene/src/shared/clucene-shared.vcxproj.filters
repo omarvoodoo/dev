@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CLucene\SharedHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\gunichartables.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_tcslwr.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_tcstoll.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_tcscasecmp.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_tprintf.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_lltot.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\repl_tcstod.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\utf8.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\config\threads.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\debug\condition.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\StringBuffer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\Misc.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="CLucene\util\dirent.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLucene\clucene-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\config\repl_tchar.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\config\repl_wchar.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\config\repl_wctype.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\config\_gunichartables.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\config\_threads.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\debug\_condition.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\LuceneThreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\SharedHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\dirent.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\Misc.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\util\StringBuffer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\_clucene-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLucene\_SharedHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E87C2566-3C03-4BFC-97BC-20458A29BDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FE137E72-B196-4F02-B8EC-B98B1697ECDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{0F3D2AAF-6958-480C-8CAB-F28C52E57072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{61E6A763-53EE-4F72-8AF0-490D88A4DA97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{06182B57-28FC-4F88-98C8-23C4BEFFC9B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
