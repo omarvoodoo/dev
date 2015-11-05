@@ -12,6 +12,10 @@
 - [FastSearcher - 개인 프로젝트](C-CPP/FastSearcher)
 - [MecabDemo - Clucene에 한글 형태소 분석기 적용](C-CPP/MecabDemo)
 
+## Cloud
+
+#### [GoogleCloud](Cloud/GoogleCloud/)
+
 ## Database
 
 #### [MySQL](Database/Mysql)
@@ -37,12 +41,6 @@
 #### [WRTnode](Etc/WRTnode)
 
 ## [Go](Go/)
-
-## Google Cloud
-
-#### SSH로 접속하기
-
-- [Mac](GoogleCloud/using_ssh_on_mac.md)
 
 ## Python
 
