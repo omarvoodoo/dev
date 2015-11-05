@@ -5,6 +5,12 @@ Redis DB를 위한 클라이언트 패키지
 - [Redigo](https://github.com/garyburd/redigo)
 - [Go Doc / Redigo](http://godoc.org/github.com/garyburd/redigo/redis)
 
+## Install
+
+```bash
+go get github.com/garyburd/redigo/redis
+```
+
 ## Redis의 기본 사용방법
 
 Redigo는 아래와 같은 방법으로 Redis에 연결합니다.
