@@ -9,6 +9,7 @@
 ### END INIT INFO
 
 # Author: Sergey Budnevitch <sb@nginx.com>
+# nginx version: nginx/1.9.9
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/nginx/sbin
 
