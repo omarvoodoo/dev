@@ -49,6 +49,8 @@ node-dyndns는 아래와 같이 도메인 정보를 업데이트한다.
 
 - 외부에서 접근이 가능하도록 소스코드(lib/dnsserver.js)를 수정한다.
 
+- DNSServer 포트 53, RestAPI-Webserver 포트 80이 외부에서 접근 가능해야한다.
+
 ```javascript
 if (!option.host) {
     option.host = '0.0.0.0';
