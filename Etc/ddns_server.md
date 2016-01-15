@@ -47,7 +47,7 @@ node-dyndns는 아래와 같이 도메인 정보를 업데이트한다.
 
 - [다운로드 링크](https://bitbucket.org/ntakimura/node-dyndns/overview)에서 소스를 다운로드한다.
 
-- 외부에서 접근이 가능하도록 소스코드(lib/dnsserver.js)를 수정한다.
+- 외부에서 접근이 가능하도록 소스코드(lib/dnsserver.js, lib/webserver.js)를 수정한다.
 
 - DNSServer 포트 53, RestAPI-Webserver 포트 80이 외부에서 접근 가능해야한다.
 
