@@ -7,4 +7,4 @@
 
 ## REST framework
 
-* [Permissions](Permissions.md)
+* [Permissions](permissions.md)
