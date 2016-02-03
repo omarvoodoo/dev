@@ -58,3 +58,8 @@ DATABASE_OPTIONS = {'charset': 'utf8'}
 TIME_ZONE = 'Asia/Seoul'
 LANGUAGE_CODE = 'ko-kr'
 ```
+
+## References
+
+* [egloos.zum.com/mcchae/](http://egloos.zum.com/mcchae/v/10625376)
+* [nicesea.tistory.com/](http://nicesea.tistory.com/entry/MySQL-%ED%95%9C%EA%B8%80-%EC%A0%80%EC%9E%A5-%EC%84%A4%EC%A0%95)
