@@ -1,5 +1,6 @@
 # Django
 
+* [Django에서 logger 사용하기](django_logger.md)
 * [CSRF 에러`Forbidden(403)` 대처하기](csrf_verification_failed.md)
 
 ## PyCharm Community Edition 활용하기
