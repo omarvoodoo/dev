@@ -7,3 +7,5 @@
 ### [클릭 이벤트 발생시 브라우저 최상단으로 이동되는 현상 방지하기](prevents_page_jump.md)
 
 ### [Understanding Javascripts `Function.prototype.bind`](function_prototype_bind.md)
+
+### [Array 비우기](empty_array.md)
