@@ -1,4 +1,4 @@
-# CSS, vertical-align을 이용한 가로 정렬
+# CSS, vertical-align을 이용한 세로 정렬
 
 > vertical-align: center;
 
