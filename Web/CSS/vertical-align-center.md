@@ -1,6 +1,6 @@
 # CSS, vertical-align을 이용한 세로 정렬
 
-> vertical-align: center;
+table, table-cell, vertical-align을 이용하여 세로 정렬을 하려면 정렬을 하려는 `블록의 높이가 고정이어야 한다`.
 
 ## Example
 
