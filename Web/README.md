@@ -7,4 +7,4 @@
 
 ## CSS
 
-- [vertical-align을 이용한 세로 정렬](vertical-align-center.md)
+- [vertical-align을 이용한 세로 정렬](CSS/vertical-align-center.md)
