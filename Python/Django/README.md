@@ -1,6 +1,7 @@
 # Django
 
 * [Django에서 logger 사용하기](django_logger.md)
+* [ajax 요청시 CSRF token 포함하기](files/jquery_csrf.md)
 * [CSRF 에러`Forbidden(403)` 대처하기](csrf_verification_failed.md)
 * [ImportError 대처하기](import_error.md)
 * [migration 실행 후 수행된 SQL 스크립트 출력하기](sqlmigrate-sql.md)
