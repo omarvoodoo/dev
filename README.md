@@ -1,7 +1,21 @@
 # dev
 개발 관련 정리
 
+## Python
+
+#### [Django](Python/Django)
+
+#### [Examples](Python/Examples/)
+
+## [Web](Web/)
+
+## [Javascript](Javascript/)
+
 ## Android
+
+#### Docs
+
+- [AndriodStudio에 이미지 추가하기(사용하기)](Android/android_studio_add_image.md)
 
 #### Examples
 
@@ -37,17 +51,10 @@
 #### Nginx
 
 - [ErrorReport](Etc/nginx/ErrorReport)
+- [URL에 html 확장자 없이 사용하기](Etc/nginx/files/url_without_ext.md)
 
 #### [RaspberryPi](Etc/RaspberryPi)
 
 #### [WRTnode](Etc/WRTnode)
 
 ## [Go](Go/)
-
-## Python
-
-#### [Django](Python/Django)
-
-#### [Examples](Python/Examples/)
-
-## [Web](Web/)
