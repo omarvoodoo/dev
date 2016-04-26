@@ -3,7 +3,7 @@
 
 ## Python
 
-#### [Django]
+#### [Django](Python/Django)
 
 - [Django에서 logger 사용하기](Python/Django/django_logger.md)
 - [ajax 요청시 CSRF token 포함하기](Python/Django/files/jquery_csrf.md)
