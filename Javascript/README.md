@@ -9,3 +9,5 @@
 ### [Understanding Javascripts `Function.prototype.bind`](function_prototype_bind.md)
 
 ### [Array 비우기](empty_array.md)
+
+### [페이지를 떠날 때 경고창 띄우기](files/window_beforeunload_event.md)
