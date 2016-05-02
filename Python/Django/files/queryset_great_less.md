@@ -1,5 +1,19 @@
 # QuerySet, filter에 비교 연산 처리하기
 
+`gt`   
+Greater then.
+
+`gte`   
+Greater than or equal to.
+
+`lt`   
+Less than.
+
+`lte`   
+Less than or equal to.
+
+### Examples
+
 Less than or equal:
 
 ```python
