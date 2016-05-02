@@ -6,6 +6,7 @@
 * [ImportError 대처하기](import_error.md)
 * [migration 실행 후 수행된 SQL 스크립트 출력하기](sqlmigrate-sql.md)
 * [Updating multiple objects at once](https://docs.djangoproject.com/en/dev/topics/db/queries/#updating-multiple-objects-at-once)
+* [QuerySet, filter에 비교 연산 처리하기](files/queryset_great_less.md)
 
 ## PyCharm Community Edition 활용하기
 
