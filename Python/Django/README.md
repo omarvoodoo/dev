@@ -5,6 +5,7 @@
 * [CSRF 에러`Forbidden(403)` 대처하기](csrf_verification_failed.md)
 * [ImportError 대처하기](import_error.md)
 * [migration 실행 후 수행된 SQL 스크립트 출력하기](sqlmigrate-sql.md)
+* [Updating multiple objects at once](https://docs.djangoproject.com/en/dev/topics/db/queries/#updating-multiple-objects-at-once)
 
 ## PyCharm Community Edition 활용하기
 
