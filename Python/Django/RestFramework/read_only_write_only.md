@@ -19,3 +19,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
         fields = ('email', 'username', 'password')
         extra_kwargs = {'password': {'write_only': True}}
 ```
+
+### References
+
+* [django-rest-framework.org/api-guide](http://www.django-rest-framework.org/api-guide/serializers/#specifying-read-only-fields)
