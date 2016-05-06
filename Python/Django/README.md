@@ -20,6 +20,7 @@
 * [“No 'Access-Control-Allow-Origin' header is present on the requested resource” in django](RestFramework/cors.md)
 * [Pagination](RestFramework/pagination.md)
 * [decorators - @detail_route, @list_route](RestFramework/decorator.md)
+* [ModelSerializer - `읽기`, `쓰기` 속성 지정하기](RestFramework/read_only_write_only.md)
 
 ## MySQL
 
